@@ -1,0 +1,17 @@
+const App = () => <p>Daddy</p>;
+
+function plus (a){
+  return a+1;
+}
+
+const minus1 = function(b){
+  return b-1;
+}
+const minus2 = b => b-1;
+const minus3 = (b) => b -1;
+const minus4 = (b,c) => b - c;
+const minus5 = () => -1;
+
+const multi = (a,b) => c = a*b;
+
+export default App
